@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-Login-Tanpa-Username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0d1cb72-14e7-4846-9aae-68d48d596f09</testCaseGuid>
+</TestCaseEntity>
