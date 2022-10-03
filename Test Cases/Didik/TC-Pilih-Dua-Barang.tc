@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC-Login-Success</name>
+   <name>TC-Pilih-Dua-Barang</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c2445ccc-235b-415e-a1e0-2b85f4e7bb7e</testCaseGuid>
+   <testCaseGuid>9c653658-1951-432d-bc0c-878cda9e8a1d</testCaseGuid>
 </TestCaseEntity>

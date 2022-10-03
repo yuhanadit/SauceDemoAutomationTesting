@@ -17,7 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Trainer/TC-Login-Lok'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/a_Close Menu_shopping_cart_link'))
+WebUI.callTestCase(findTestCase('Didik/TC-Pilih-Dua-Barang'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -22,18 +22,16 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'), 'locked_out_usere')
-
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'), 
-    'qcu24s4901FyWDTwXGr6XA==')
+    'D97+I/mEKNE=')
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71'))
 
-errorMessage = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/h3_Epic sadface Sorry, this user has been l_a91fd7'))
+errorMassage = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/h3_Epic sadface Username is required'))
 
-println(errorMessage)
+println(errorMassage)
 
-if (!(errorMessage.equals('Epic sadface: Sorry, this user has been locked out.'))) {
-    KeywordUtil.markFailed('Error Message tidak sesuai')
+if (!(errorMassage.equals('Epic sadface: Username is required'))) {
+    KeywordUtil.markFailed('Pesan Error Tidak Sesuai')
 }
 

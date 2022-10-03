@@ -11,13 +11,26 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Trainer/TC-Login-Lok'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/a_Close Menu_shopping_cart_link'))
+WebUI.navigateToUrl('https://www.saucedemo.com/')
+
+WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'), 'standard_usere')
+
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71'))
+
+errorMassage = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/h3_Epic sadface Password is required'))
+
+println(errorMassage)
+
+if (!(errorMassage.equals('Epic sadface: Password is required'))) {
+    KeywordUtil.markFailed('Pesan Error Tidak Sesuai')
+}
 
