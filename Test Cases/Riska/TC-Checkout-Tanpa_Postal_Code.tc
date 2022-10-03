@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-Checkout-Tanpa_Postal_Code</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2a7d099-c5e0-4e76-ac83-137ace958edc</testCaseGuid>
+</TestCaseEntity>
