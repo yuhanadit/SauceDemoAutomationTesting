@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test login tanpa usernae</description>
+   <name>TC-LOGIN-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>532495df-6e6b-4a1b-bc03-a360dd6214eb</testCaseGuid>
+</TestCaseEntity>
