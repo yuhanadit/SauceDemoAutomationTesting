@@ -10,25 +10,33 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Refia/TCPilihSemuaBarang'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://www.saucedemo.com/')
+WebUI.navigateToUrl('https://www.saucedemo.com/inventory.html')
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'), 'standard_user')
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/a_6'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Checkout'))
 
-errorMessage = WebUI.getText(findTestObject('Page_Swag Labs/h3_Epic sadface Password is required'))
+WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName'), 'ipsum')
 
-if (!(errorMessage.equals('Epic sadface Password is required'))) {
+WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode'), '12345')
+
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Cancel_continue'))
+
+errorMessage = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/h3_Error First Name is required'))
+
+println(errorMessage)
+
+if (!(errorMessage.equals('Error First Name is required'))) {
     KeywordUtil.markFailed('Error Message tidak sesuai')
 }
 
