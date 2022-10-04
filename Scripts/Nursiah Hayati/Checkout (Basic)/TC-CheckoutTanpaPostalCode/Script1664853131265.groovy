@@ -17,18 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Nursiah Hayati/Pilih Barang (Basic)/TC-PilihSemuaBarang'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://www.saucedemo.com/')
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Checkout'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'), 'standard_user')
+WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName'), 'Nursiah ')
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71'))
+WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName'), 'Hayati')
+
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Cancel_continue'))
 
 errorMessage = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/h3_Epic sadface Sorry, this user has been l_a91fd7'))
 
 println(errorMessage)
 
-if (!(errorMessage.equals('Epic sadface: Password is required'))) {
-	KeywordUtil.markFailed('Error Message tidak sesuai')
+if (!(errorMessage.equals('Error: Postal Code is required'))) {
+    KeywordUtil.markFailed('Error Message sesuai')
 }
+

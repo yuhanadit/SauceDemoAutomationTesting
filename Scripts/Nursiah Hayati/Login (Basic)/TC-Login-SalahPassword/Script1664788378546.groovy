@@ -34,5 +34,5 @@ errorMessage = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/h3
 println(errorMessage)
 
 if (!(errorMessage.equals('Epic sadface: Username and password do not match any user in this service'))) {
-	KeywordUtil.markFailed('Error Message sesuai')
+	KeywordUtil.markFailed('Error Message tidak sesuai')
 }

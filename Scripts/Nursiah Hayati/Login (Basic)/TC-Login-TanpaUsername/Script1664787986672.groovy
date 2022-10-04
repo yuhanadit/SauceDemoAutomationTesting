@@ -31,5 +31,5 @@ errorMessage = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/h3
 println(errorMessage)
 
 if (!(errorMessage.equals('Epic sadface: Username is required'))) {
-	KeywordUtil.markFailed('Error Message sesuai')
+	KeywordUtil.markFailed('Error Message tidak sesuai')
 }
