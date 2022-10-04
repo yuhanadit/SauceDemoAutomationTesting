@@ -1,4 +1,3 @@
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -11,26 +10,46 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement
 
-WebUI.callTestCase(findTestCase('Riska/TC-Pilih_Satu_Barang'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Riska/TC-Login-Standart_User'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Checkout'))
+try {
+	WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Swag Labs/select_Name (A to Z)Name (Z to A)Price (low_f7e90a'),
+		'za', true)
+}catch(Exception e) {
+	
+}
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName'), 'Riska')
+//Dapetin elemennya
+List<WebElement> webItemList = WebUI.findWebElements(findTestObject('Object Repository/Page_Swag Labs/item_list'), 10)
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName'), 'Puspa')
+List<String> oriList = new ArrayList()
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Cancel_continue'))
+List<String> sortedList = new ArrayList()
 
-errorMessage = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/h3_Error Postal Code is required'))
+for(data in webItemList) {
+	println data.getText()
+	//Masukkan kedalam 2 array/list
+	oriList.add(data.getText())
+	sortedList.add(data.getText())
+}
 
-if (!(errorMessage.equals('Error: Postal Code is required'))) {
-    keywordUtil.markFailed('Error Message Tidak Sesuai')
+//Lakukan sorting array ke dua (bukan ori)
+Collections.sort(sortedList, Collections.reverseOrder())
+
+//println "A"
+
+//Bandingkan kedua array
+if(!oriList.equals(sortedList)) {
+	//Kalau beda, sortingnya tidak sesuai, FAILED
+	KeywordUtil.markFailed('Sorting tidak sesuai urutan')
 }
 
