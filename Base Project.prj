@@ -6,7 +6,27 @@
    <UUID>21577bd3-5047-4334-859e-80d357b4d311</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+<<<<<<< HEAD
+   <projectFileLocation>C:\Users\Win_10\Katalon Studio\SauceDemoAutomationTesting.git\Base Project.prj</projectFileLocation>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+   <projectFileLocation>C:\Users\Asus\Katalon Studio\SauceDemoAutomationTesting.git\Base Project.prj</projectFileLocation>
+=======
+   <projectFileLocation>C:\Users\USER\Katalon Studio\SauceDemoAutomationTesting.git\Base Project.prj</projectFileLocation>
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+   <projectFileLocation>C:\Users\XA User\Katalon Studio\SauceDemoAutomationTesting.git\Base Project.prj</projectFileLocation>
+=======
+   <projectFileLocation>C:\Users\Khaerul\Katalon Studio\SauceDemoAutomationTesting.git\Base Project.prj</projectFileLocation>
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
+=======
    <projectFileLocation>C:\Users\Refia\Katalon Studio\SauceDemoAutomationTesting.git (2)\Base Project.prj</projectFileLocation>
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
