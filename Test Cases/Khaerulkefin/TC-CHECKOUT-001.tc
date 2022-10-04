@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checkout dengan semua data terisi</description>
+   <name>TC-CHECKOUT-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb8b90e9-a689-4ed6-8e54-43144a5dcbfb</testCaseGuid>
+</TestCaseEntity>

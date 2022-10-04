@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memilih semua barang</description>
+   <name>TC-PILIHBARANG-003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>296bbda5-4851-4a7b-9bcc-4022851a295e</testCaseGuid>
+</TestCaseEntity>

@@ -198,6 +198,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+<<<<<<< HEAD
       <webElementGuid>07035960-89b2-426d-af02-e505f0025fac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
@@ -1863,6 +1864,265 @@
       <type>Main</type>
       <value>id(&quot;password&quot;)</value>
       <webElementGuid>b645fdfa-eac6-47cb-9bb8-4b4832eb30e6</webElementGuid>
+=======
+      <webElementGuid>26e2953f-929f-4919-9ad4-bc532923ce35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input_error form_input</value>
+      <webElementGuid>fb339bf3-ea19-4b7a-8470-a9f11843c2be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Password</value>
+      <webElementGuid>0ff221ef-3dac-47ea-a724-cf57116abec0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>82759d2b-d263-4f8a-a0d9-642a1cead1c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>a8a93d44-82b7-4145-a34e-6cd03ad9ed39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>a350fa5a-46c4-4021-88ff-ab26789b0d5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>282d5d56-9aaa-4be7-abc6-e0b3bec0105b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocorrect</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>7113ef79-274e-4cd3-b898-5ab6b5ca98fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocapitalize</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>34c1e4c3-e11e-444f-adb8-f797270b3137</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>s</value>
+      <webElementGuid>38c559ad-00d2-45de-b516-6866337ee52b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;password&quot;)</value>
+      <webElementGuid>d95eb06a-91f7-47a7-be14-32ab0be45733</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>5fa87483-519e-4e4a-88b0-cceeb6c3b937</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input_error form_input</value>
+      <webElementGuid>2b36a40a-5b95-4ae7-9dd8-cfef67823a60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Password</value>
+      <webElementGuid>53b1b0a9-3d4a-4abd-b67f-39f6e17afc39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>fdec3545-1519-4f06-9525-ccf8088b49be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>7a401912-cbee-4c92-8936-1b2ea62169b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>b2881c29-8909-4a3c-bb64-76b8e8447100</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>a8a0e78a-7443-4f0d-8560-3905bbba43a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocorrect</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>85ad05ab-4c77-47da-8d6e-3e69d68ba417</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocapitalize</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>c9c0e28b-b4fa-411c-be1d-529814467ca9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>c8b33abe-bec4-47f2-b37a-1e580e935ee6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;password&quot;)</value>
+      <webElementGuid>aef09a9a-f98b-43e1-b6ff-111dc2a79485</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>b7a4f060-8a4e-4657-9dcd-c2b1d8f16d32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input_error form_input</value>
+      <webElementGuid>2a729933-6e32-4866-a4de-923908848a31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Password</value>
+      <webElementGuid>d5846b1a-4e62-496a-b7b3-35fb8cc64be7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>2b4b5a9e-4cde-4e9d-b326-4061c3aeaaa1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>f2b8dfcf-b3f5-4ca5-aff0-1b136d5e17d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>e8320476-85f7-4faf-90e6-e32cc59b2f72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>1fa6ee84-30b0-49cd-8d67-eaaa9f0887ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocorrect</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>c33d9142-bfa1-4bf4-9422-b1895b031ecc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocapitalize</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>6b2aaf1a-b4de-4417-b622-2b39cd0df63c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>s</value>
+      <webElementGuid>3c7222b4-6443-447b-be24-851e11dbec1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;password&quot;)</value>
+      <webElementGuid>e335842f-3a97-4daa-b672-5b5c255c21e7</webElementGuid>
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -2047,7 +2307,11 @@
       <type>Main</type>
       <value>//input[@id='password']</value>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <webElementGuid>1b1d8141-e811-4f72-9225-9a73e5785d26</webElementGuid>
+=======
+      <webElementGuid>6c7f6972-63fa-4a96-ba78-c91177b6c97b</webElementGuid>
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
 =======
       <webElementGuid>1111f939-8f4d-470e-ba4d-3be2f567f642</webElementGuid>
 >>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
@@ -2059,7 +2323,11 @@
       <type>Main</type>
       <value>//div[@id='login_button_container']/div/form/div[2]/input</value>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <webElementGuid>4f82aa66-2a46-42fa-bd28-695694889497</webElementGuid>
+=======
+      <webElementGuid>ccd68d1c-ba04-47de-829a-59680e98dbd5</webElementGuid>
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
 =======
       <webElementGuid>0a0254f6-2b90-4605-8895-d4f65508de2f</webElementGuid>
 >>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
@@ -2071,7 +2339,11 @@
       <type>Main</type>
       <value>//div[2]/input</value>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <webElementGuid>3e35842c-ffa4-467f-83ca-3e7d0717c427</webElementGuid>
+=======
+      <webElementGuid>bb57e734-2e87-41f7-8e55-b158cb1148a2</webElementGuid>
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
 =======
       <webElementGuid>4967551f-5ce7-4747-b3b3-37f1faafa9b8</webElementGuid>
 >>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
@@ -2083,7 +2355,11 @@
       <type>Main</type>
       <value>//input[@placeholder = 'Password' and @type = 'password' and @id = 'password' and @name = 'password']</value>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <webElementGuid>544834d7-966e-4382-9bfc-fd433a2b015f</webElementGuid>
+=======
+      <webElementGuid>3726508d-c0d1-421e-9565-47c5282bdaf3</webElementGuid>
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
 =======
       <webElementGuid>db58ba8f-8100-484a-a6e6-c2f074626a16</webElementGuid>
 >>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
