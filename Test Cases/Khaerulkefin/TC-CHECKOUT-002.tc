@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check out tanpa first name</description>
+   <name>TC-CHECKOUT-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a483b46f-c26f-4118-8c99-e78f04c164f9</testCaseGuid>
+</TestCaseEntity>

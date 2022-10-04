@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>cek fitur checkout tanpa mengisi lastname</description>
+   <name>TCCheckoutTanpaLastname</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8d491f6-852b-466a-b8df-7322c2edfa24</testCaseGuid>
+</TestCaseEntity>

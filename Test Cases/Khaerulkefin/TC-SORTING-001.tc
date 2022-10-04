@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sorting nama barang secara ascending</description>
+   <name>TC-SORTING-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be9b9f16-436d-44cb-ba48-12a49e796ac5</testCaseGuid>
+</TestCaseEntity>

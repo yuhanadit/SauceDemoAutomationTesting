@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sorting nama secara descending</description>
+   <name>TC-SORTING-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8a939e2-03f6-4de6-b151-e864dc66a6e4</testCaseGuid>
+</TestCaseEntity>

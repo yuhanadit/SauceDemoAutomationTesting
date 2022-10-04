@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>mengurutkan nama item dari a-z</description>
+   <name>TCSortingHargaAscending</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee08cf26-3d30-47c5-9cfa-381d0e226d42</testCaseGuid>
+</TestCaseEntity>
