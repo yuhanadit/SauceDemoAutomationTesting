@@ -3,6 +3,7 @@
    <description></description>
    <name>button_Finish</name>
    <tag></tag>
+<<<<<<< HEAD
    <elementGuidId>1ccaf550-4e61-4647-8e48-a13befffa021</elementGuidId>
    <selectorCollection>
       <entry>
@@ -143,5 +144,147 @@
       <type>Main</type>
       <value>//button[@id = 'finish' and @name = 'finish' and (text() = 'Finish' or . = 'Finish')]</value>
       <webElementGuid>0c552803-dbe8-4165-ad91-429c17d6b2fe</webElementGuid>
+=======
+   <elementGuidId>94a9d2f8-acac-4c1e-b9f3-357f2ea6e32c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='finish']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#finish</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3c03d0ea-cbe9-42ad-8aad-61731e84f773</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn_action btn_medium cart_button</value>
+      <webElementGuid>73fc5449-f748-46c2-9f41-5628a78cb1c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>finish</value>
+      <webElementGuid>f2db1eb6-8758-40cd-a7eb-2a15d598da9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>finish</value>
+      <webElementGuid>b8f21fe0-093f-4499-9ecb-2e80a311b276</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>finish</value>
+      <webElementGuid>6c5033c6-0ecc-4a2b-bf1c-256bd0a3523a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Finish</value>
+      <webElementGuid>a5f3e830-41e2-4c3c-92ce-b2d5a6570106</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;finish&quot;)</value>
+      <webElementGuid>57546292-2922-4ef8-a952-dd12581d9a94</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='finish']</value>
+      <webElementGuid>b961d82a-cc67-4c12-a5c4-68f416d7e819</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='checkout_summary_container']/div/div[2]/div[8]/button[2]</value>
+      <webElementGuid>00a2e2ce-5293-4c3b-9435-89b6fe3f6c3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+      <webElementGuid>382014ad-d856-4683-bbab-3e9010b03a02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total: $140.34'])[1]/following::button[2]</value>
+      <webElementGuid>d44f0db5-1f78-4e78-be75-b495710d6a78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::button[1]</value>
+      <webElementGuid>aeffacd8-40da-437e-bfde-ee91a089d5a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facebook'])[1]/preceding::button[1]</value>
+      <webElementGuid>8ed949b6-1a60-4a60-a691-e1312353b64e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Finish']/parent::*</value>
+      <webElementGuid>61541782-2c17-40b8-bee4-179fe2e22b0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>59845dea-d203-45fe-b15a-97348ea67698</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'finish' and @name = 'finish' and (text() = 'Finish' or . = 'Finish')]</value>
+      <webElementGuid>dc93aeb1-9ad3-4f74-982b-f53e418145bd</webElementGuid>
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
    </webElementXpaths>
 </WebElementEntity>
