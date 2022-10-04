@@ -10,30 +10,41 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('ferdi/TC-Login-sukses'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'), 'locked_out_user')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'), 
-    'qcu24s4901FyWDTwXGr6XA==')
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71'))
-
-errorMessage = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/h3_Epic sadface Sorry, this user has been l_a91fd7'))
-
-println(errorMessage)
-
-if (!(errorMessage.equals('Epic sadface: Sorry, this user has been locked out.'))) {
-    KeywordUtil.markFailed('Error Message tidak sesuai')
+try {
+	WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Swag Labs/select_Name (A to Z)Name (Z to A)Price (low_f7e90a'),
+		'hilo', true)
+}catch(Exception e) {
+	
 }
 
+List<WebElement> WebItemList = WebUI.findWebElements(findTestObject('Object Repository/Page_Swag Labs/itempricehigh'),10)
+
+List<Double> oriList = new ArrayList()
+
+List<Double> sortedList = new ArrayList()
+
+for (data in WebItemList) {
+	String raw = data.getText().replace('$', '')
+	double price = Double.parseDouble(raw)
+	oriList.add(price)
+	sortedList.add(price)
+}
+
+Collections.sort(sortedList, Collections.reverseOrder())
+
+if (!oriList.equals(sortedList)) {
+	KeywordUtil.markFailed('Sorting tidak sesuai')
+}
