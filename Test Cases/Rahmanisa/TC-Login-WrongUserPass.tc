@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-Login-WrongUserPass</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abdeebb3-0478-4b7d-b80c-a0d990d79650</testCaseGuid>
+</TestCaseEntity>

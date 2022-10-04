@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memilih 2 barang</description>
+   <name>TC-PILIHBARANG-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9f885a5-8382-4a29-99a9-40f0879ddbdc</testCaseGuid>
+</TestCaseEntity>

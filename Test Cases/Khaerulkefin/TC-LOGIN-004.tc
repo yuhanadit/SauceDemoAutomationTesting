@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login dengan standard user</description>
+   <name>TC-LOGIN-004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee531304-b1eb-4c3b-9c11-386c9139a649</testCaseGuid>
+</TestCaseEntity>

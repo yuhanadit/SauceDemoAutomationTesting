@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCLoginLockedOutUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac80e668-7923-4f6e-8fcf-a513ce442745</testCaseGuid>
+</TestCaseEntity>

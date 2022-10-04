@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC-Login-Locked</name>
+   <name>TC-Name_A_TO _Z tambah_Konfirmasi</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c2445ccc-235b-415e-a1e0-2b85f4e7bb7e</testCaseGuid>
+   <testCaseGuid>b1db2ee0-838c-4b93-a984-7bd8b791fb1d</testCaseGuid>
 </TestCaseEntity>

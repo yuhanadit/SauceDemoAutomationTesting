@@ -6,16 +6,40 @@
    <elementGuidId>23f23185-3eda-40e8-a93c-e57699aff59f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.shopping_cart_link</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='shopping_cart_container']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.shopping_cart_link</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>dbe187a4-56a1-4914-8c89-cd9001b1a80e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>shopping_cart_link</value>
+      <webElementGuid>9600a2ff-9268-4c5d-aaf9-7de3427e92ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shopping_cart_container&quot;)/a[@class=&quot;shopping_cart_link&quot;]</value>
+      <webElementGuid>bb67ff65-3eb7-48f9-8d08-627b4e5d1153</webElementGuid>
+   </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -33,7 +57,7 @@
       <webElementGuid>328de195-8340-4b69-89cd-8e6710d90532</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -46,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='shopping_cart_container']/a</value>
-      <webElementGuid>69a10f23-c7f3-4e83-9d16-0486945e1a05</webElementGuid>
+      <webElementGuid>00f62d14-0803-4be8-9370-ec1ae8c125f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +78,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/a</value>
-      <webElementGuid>e4b6d028-0282-4c57-a1d3-069d57d6aac3</webElementGuid>
+      <webElementGuid>8375e4d4-143a-4566-a693-28fbf8370ffb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
