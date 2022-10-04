@@ -11,29 +11,32 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Rahmanisa/TC-Login-Success'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://www.saucedemo.com/')
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/span_Name (A to Z)Name (A to Z)Name (Z to A_3f2346'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'), 'locked_out_user')
+List<WebElement> webElement = WebUI.findWebElements(findTestObject('Object Repository/Page_Swag Labs/itemList'), 10)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'), 
-    'qcu24s4901FyWDTwXGr6XA==')
+List<String> oriList = new ArrayList()
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71'))
+List<String> sortedList = new ArrayList()
 
-errorMessage = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/h3_Epic sadface Sorry, this user has been l_a91fd7'))
+for (data in webElement) {
+	println data.getText()
+	oriList.add(data.getText())
+	sortedList.add(data.getText())
+}
 
-println(errorMessage)
+Collections.sort(sortedList)
 
-if (!(errorMessage.equals('Epic sadface: Sorry, this user has been locked out.'))) {
-    KeywordUtil.markFailed('Error Message tidak sesuai')
+if (!oriList.equals(sortedList)) {
+	KeywordUtil.markFailed('Sorting tidak sesuai')
 }
 
