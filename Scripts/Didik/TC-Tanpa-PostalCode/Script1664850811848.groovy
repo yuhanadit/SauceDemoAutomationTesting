@@ -10,24 +10,31 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Trainer/TC-Login-Success'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Didik/TC-Pilih-Satu-Barang'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/a_1'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart_1'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Checkout'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart_1_2'))
+WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName'), 'didik')
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart_1_2_3'))
+WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName'), 'maulana')
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart_1_2_3_4'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Cancel_continue'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart_1_2_3_4_5'))
+errorMassage = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/h3_Error Postal Code is required'))
+
+println(errorMassage)
+
+if(!(errorMassage.equals('Error: Postal Code is required'))) {
+	KeywordUtil.markFailed('Pesan Tidak Sesuai')
+}
 

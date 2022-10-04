@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Didik/TC-Pilih-Satu-Barang'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Trainer/TC-Login-Success'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart'))
+
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart_1'))
 

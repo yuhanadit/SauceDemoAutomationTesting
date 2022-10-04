@@ -19,15 +19,3 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Trainer/TC-Login-Success'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart'))
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart_1'))
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart_1_2'))
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart_1_2_3'))
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart_1_2_3_4'))
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart_1_2_3_4_5'))
-
