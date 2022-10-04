@@ -3,6 +3,7 @@
    <description></description>
    <name>span_6</name>
    <tag></tag>
+<<<<<<< HEAD
    <elementGuidId>0b35c463-069b-498f-acde-628d70bf6ce3</elementGuidId>
    <selectorCollection>
       <entry>
@@ -111,5 +112,115 @@
       <type>Main</type>
       <value>//span[(text() = '6' or . = '6')]</value>
       <webElementGuid>9ddf10be-27b6-4574-b958-82f1f0138b25</webElementGuid>
+=======
+   <elementGuidId>9b85f8f2-627e-473c-bacc-daf03282f6af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='shopping_cart_container']/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.shopping_cart_badge</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d56e1c94-34c0-413d-b2b3-b29efb934781</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>shopping_cart_badge</value>
+      <webElementGuid>73865564-c8ed-41b4-aa13-b5cc7cfc425f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>6</value>
+      <webElementGuid>11067ba2-75d9-4cc2-bd23-c06f0236d9fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shopping_cart_container&quot;)/a[@class=&quot;shopping_cart_link&quot;]/span[@class=&quot;shopping_cart_badge&quot;]</value>
+      <webElementGuid>2589d483-b759-4139-b83b-c8b931c8ffff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='shopping_cart_container']/a/span</value>
+      <webElementGuid>1a6f734a-008f-42c8-98fe-526043d9e9b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Menu'])[1]/following::span[1]</value>
+      <webElementGuid>f4ae3621-4d5d-41eb-98b6-fd5fd8cfb41a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/following::span[1]</value>
+      <webElementGuid>c93541a2-8f49-4a2b-a1d7-32046b6d50e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/preceding::span[1]</value>
+      <webElementGuid>d41d3139-d35f-4807-bd16-93dabdc643f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name (A to Z)'])[1]/preceding::span[2]</value>
+      <webElementGuid>b48c4c2c-95f2-415c-bf47-c152f9ac4cda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='6']/parent::*</value>
+      <webElementGuid>a8cc3bf3-faad-422a-be99-c033ed55865f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>5edfdb0a-89f3-4e88-9da9-2f4bad2406b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '6' or . = '6')]</value>
+      <webElementGuid>9068ab36-6a68-48b1-931a-41c00c11e8d4</webElementGuid>
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
    </webElementXpaths>
 </WebElementEntity>

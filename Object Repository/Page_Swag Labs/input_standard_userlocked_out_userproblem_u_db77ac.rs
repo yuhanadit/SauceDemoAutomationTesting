@@ -6,16 +6,176 @@
    <elementGuidId>0ba7f41b-768b-46c4-982f-484c88d00fc3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#user-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='user-name']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#user-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>9cfcb371-f241-46f7-9f44-3334751cb77a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input_error form_input</value>
+      <webElementGuid>f2973a0b-906f-4f9c-b621-eb21ddda105f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Username</value>
+      <webElementGuid>0f7a70f7-4d53-4ba7-852a-f575a7aa4095</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>010bd97e-cf0d-4d91-a3da-b60f61cf6c16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>username</value>
+      <webElementGuid>c8dbe230-fe47-4429-8b17-5f8cce51c906</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>user-name</value>
+      <webElementGuid>da532081-c051-44c1-8739-d2d5f7bb3f88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>user-name</value>
+      <webElementGuid>9877a4c2-e33e-43f6-ae2d-8c4e0e2c82ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocorrect</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>07058404-4912-43d5-aa14-ae37f4b2cfb2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocapitalize</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>e7b25a88-d71a-4cee-abe5-f1a76005aa87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;user-name&quot;)</value>
+      <webElementGuid>b8372285-ca91-439a-ad3d-93ef4fa860c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>ac38c3fa-56d4-4821-aef2-865fec7f2423</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input_error form_input</value>
+      <webElementGuid>b608c8fa-614d-4e0b-b917-30e22ebde46b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Username</value>
+      <webElementGuid>f7e18a77-b733-4115-95f7-157fa4910fd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>c8b0f7b8-e18c-4b0d-bec4-0225e25d9d8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>username</value>
+      <webElementGuid>94cce918-ce73-4c0e-94dc-9abb767779a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>user-name</value>
+      <webElementGuid>fe0b35b5-a64c-49cc-85bf-5d6c430b2a6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>user-name</value>
+      <webElementGuid>59036af3-6ad7-4178-9b03-2fc77e98e04b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocorrect</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>faeb44aa-20c0-4136-ae12-0ed2596a93f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocapitalize</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>3c27f9c5-61e0-44bf-9fa7-63518be3a01b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;user-name&quot;)</value>
+      <webElementGuid>447bc88f-38ff-4aa3-8de3-8ffce59ca98c</webElementGuid>
+   </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -1702,7 +1862,11 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='user-name']</value>
+<<<<<<< HEAD
       <webElementGuid>6da95618-9c59-417d-9f54-b1ffb3f5581e</webElementGuid>
+=======
+      <webElementGuid>3192bb5d-8b38-4f15-8b36-d4438b21c817</webElementGuid>
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -1710,7 +1874,11 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='login_button_container']/div/form/div/input</value>
+<<<<<<< HEAD
       <webElementGuid>b973aa5f-5be0-444f-af12-73a655737b5e</webElementGuid>
+=======
+      <webElementGuid>98e18f25-3f2c-4c0d-850a-8eaaf91703a9</webElementGuid>
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -1718,7 +1886,11 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
+<<<<<<< HEAD
       <webElementGuid>e97a2621-d7ee-4bac-b466-0dd355902762</webElementGuid>
+=======
+      <webElementGuid>4a77062f-0a9d-439e-b414-2ddb09b3708d</webElementGuid>
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -1726,6 +1898,10 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Username' and @type = 'text' and @id = 'user-name' and @name = 'user-name']</value>
+<<<<<<< HEAD
       <webElementGuid>5c76452d-2bcd-4ce6-a461-4ad5e9c1c469</webElementGuid>
+=======
+      <webElementGuid>5eb89356-7a34-4c25-9fdc-020207c81ba6</webElementGuid>
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
    </webElementXpaths>
 </WebElementEntity>
