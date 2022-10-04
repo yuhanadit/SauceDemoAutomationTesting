@@ -10,8 +10,8 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
@@ -29,8 +29,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_st
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71'))
 
-errorMessage = WebUI.click(findTestObject('Object Repository/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909'))
+errorMessage = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909'))
 
-if (!(errorMessage.equals('Epic sadface Username and password do no_0e8909'))) {
-	KeywordUtil.markFailed('Error Message tidak sesuai')
+if (!(errorMessage.equals('Epic sadface: Username and password do not match any user in this service'))) {
+    KeywordUtil.markFailed('Error Message tidak sesuai')
 }
+

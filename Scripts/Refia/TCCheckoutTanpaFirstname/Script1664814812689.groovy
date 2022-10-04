@@ -36,7 +36,7 @@ errorMessage = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/h3
 
 println(errorMessage)
 
-if (!(errorMessage.equals('Error First Name is required'))) {
+if (!(errorMessage.equals('Error: First Name is required'))) {
     KeywordUtil.markFailed('Error Message tidak sesuai')
 }
 

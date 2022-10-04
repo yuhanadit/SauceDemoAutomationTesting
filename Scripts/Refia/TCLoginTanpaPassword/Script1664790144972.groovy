@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_standard_user
 
 errorMessage = WebUI.getText(findTestObject('Page_Swag Labs/h3_Epic sadface Password is required'))
 
-if (!(errorMessage.equals('Epic sadface Password is required'))) {
+if (!(errorMessage.equals('Epic sadface: Password is required'))) {
     KeywordUtil.markFailed('Error Message tidak sesuai')
 }
 

@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_standard_user
 
 errorMessage = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/h3_Epic sadface Username is required'))
 
-if (!(errorMessage.equals('Epic sadface Username is required'))) {
+if (!(errorMessage.equals('Epic sadface: Username is required'))) {
     KeywordUtil.markFailed('Error Message tidak sesuai')
 }
 
