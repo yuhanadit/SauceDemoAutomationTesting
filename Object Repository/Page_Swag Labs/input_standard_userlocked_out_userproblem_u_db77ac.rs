@@ -2574,7 +2574,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2d497ddc-3cd3-4800-837f-22f3cdd0a997</webElementGuid>
+      <webElementGuid>ee635f96-7c9c-457a-bce8-e53fca6e90c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -2582,7 +2582,7 @@
       <name>class</name>
       <type>Main</type>
       <value>input_error form_input</value>
-      <webElementGuid>4e9c693f-d385-45bc-9347-5cbd5acf0d3b</webElementGuid>
+      <webElementGuid>25f0a0d7-52af-4e09-bfdc-7a1696f81a92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -2590,7 +2590,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Username</value>
-      <webElementGuid>96a77e2c-61e9-4641-a819-d98c623ec33b</webElementGuid>
+      <webElementGuid>de4766b5-18aa-4f5f-948a-0ff2ee6570f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -2598,7 +2598,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>f5a6a870-2399-4fc1-83b3-07a1122db560</webElementGuid>
+      <webElementGuid>673bb2dc-5b43-4176-8dca-98a44fccc27c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -2606,7 +2606,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>username</value>
-      <webElementGuid>02df2b3c-7104-42d0-80c3-18a049bb5607</webElementGuid>
+      <webElementGuid>5559341b-d76b-4d81-853c-ca8efaf1d697</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -2614,7 +2614,7 @@
       <name>id</name>
       <type>Main</type>
       <value>user-name</value>
-      <webElementGuid>01887153-1250-41ea-a1e9-0346dfbabd47</webElementGuid>
+      <webElementGuid>2025375a-9896-47f1-97ac-35d0123d041e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -2622,7 +2622,7 @@
       <name>name</name>
       <type>Main</type>
       <value>user-name</value>
-      <webElementGuid>eac2813f-a80d-4ffa-8166-9d4fa54f581b</webElementGuid>
+      <webElementGuid>6899e02b-6322-4165-ae5b-a6c324fa2cce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -2630,7 +2630,7 @@
       <name>autocorrect</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>d622b6ce-59dd-4fa2-85c0-31bcc25a2aa0</webElementGuid>
+      <webElementGuid>905f78f5-2a54-4b4e-b75e-f79ab8d3f2f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -2638,7 +2638,7 @@
       <name>autocapitalize</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>960b1696-2ed4-433a-b660-8a772b566463</webElementGuid>
+      <webElementGuid>f0ceb2e8-95a8-4aac-b86e-a2d07090d281</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -2646,87 +2646,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;user-name&quot;)</value>
-      <webElementGuid>87aa6d7d-c8a9-45e5-89df-d3f068b41d00</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>input</value>
-      <webElementGuid>fd5766d0-0bfc-4d25-97aa-f2a506337d14</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>input_error form_input</value>
-      <webElementGuid>dbd223bf-18bc-4d17-b28d-996336de437f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>46c15e7a-c42a-4832-8d64-66cd16698e5e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-      <webElementGuid>230d57c7-7a15-4206-aecd-5a99e1d3bbda</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-test</name>
-      <type>Main</type>
-      <value>username</value>
-      <webElementGuid>bc1fbeb2-0ee8-480d-80bb-61cd716eb0c3</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>user-name</value>
-      <webElementGuid>fa890639-0196-40be-8ea6-039e2c16b8f9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>user-name</value>
-      <webElementGuid>ec74fbc8-3f6a-4c25-a847-f34b9d992778</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocorrect</name>
-      <type>Main</type>
-      <value>off</value>
-      <webElementGuid>6f74494c-0f08-46f2-97db-57ae2620f606</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocapitalize</name>
-      <type>Main</type>
-      <value>none</value>
-      <webElementGuid>3c4ad319-f608-406e-a211-8744fd570045</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;user-name&quot;)</value>
-      <webElementGuid>878efba6-a617-4c86-a846-14b77786ea85</webElementGuid>
+      <webElementGuid>2944e668-f376-489c-9e50-24064e8f0aac</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -2734,6 +2654,9 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='user-name']</value>
+<<<<<<< HEAD
+      <webElementGuid>77894288-cc8d-4715-8ebf-f0c83fcedb17</webElementGuid>
+=======
 <<<<<<< HEAD
       <webElementGuid>4cf29a5d-d38d-4f4a-9be0-28d5e7fb7823</webElementGuid>
 =======
@@ -2747,6 +2670,7 @@
       <webElementGuid>3192bb5d-8b38-4f15-8b36-d4438b21c817</webElementGuid>
 >>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
 >>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -2754,6 +2678,9 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='login_button_container']/div/form/div/input</value>
+<<<<<<< HEAD
+      <webElementGuid>d50b4631-6cd3-4b4e-83dd-6a5cf096642e</webElementGuid>
+=======
 <<<<<<< HEAD
       <webElementGuid>4c26aa1e-128c-4231-be4d-de27ca3a8f8e</webElementGuid>
 =======
@@ -2767,6 +2694,7 @@
       <webElementGuid>98e18f25-3f2c-4c0d-850a-8eaaf91703a9</webElementGuid>
 >>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
 >>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -2774,6 +2702,9 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
+<<<<<<< HEAD
+      <webElementGuid>a7b8202c-82c8-4687-a735-20e5f1a6c135</webElementGuid>
+=======
 <<<<<<< HEAD
       <webElementGuid>6a245757-03dc-49c9-9a94-56250ff89354</webElementGuid>
 =======
@@ -2787,6 +2718,7 @@
       <webElementGuid>4a77062f-0a9d-439e-b414-2ddb09b3708d</webElementGuid>
 >>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
 >>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -2795,7 +2727,11 @@
       <type>Main</type>
       <value>//input[@placeholder = 'Username' and @type = 'text' and @id = 'user-name' and @name = 'user-name']</value>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <webElementGuid>a4c9a275-20a6-4ce2-b1fd-546505b72c0e</webElementGuid>
+=======
+      <webElementGuid>d3462d15-0bf9-4578-b8ec-547f97f0bdb0</webElementGuid>
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD

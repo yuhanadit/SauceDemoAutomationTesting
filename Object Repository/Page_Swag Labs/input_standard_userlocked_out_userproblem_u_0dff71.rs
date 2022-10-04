@@ -23,7 +23,11 @@
       <type>Main</type>
       <value>input</value>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <webElementGuid>395fa764-f7d9-4469-8f67-ebaca74a317d</webElementGuid>
+=======
+      <webElementGuid>d8af12e3-c36e-4866-b36c-bacbf6d07b9c</webElementGuid>
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33,6 +37,7 @@
 >>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
 =======
       <webElementGuid>3c442bdb-59b5-4339-b2e9-d00b68c41e7a</webElementGuid>
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
 >>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
 >>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
    </webElementProperties>
@@ -2758,7 +2763,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>66cfc0ff-6a6b-44ac-be3e-75094d8824af</webElementGuid>
+      <webElementGuid>b21d8fa0-c2cc-4b4f-bf00-a9ebf139aebf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -2766,7 +2771,7 @@
       <name>class</name>
       <type>Main</type>
       <value>submit-button btn_action</value>
-      <webElementGuid>7b2d973b-d4f5-40bb-b306-c988750f4e11</webElementGuid>
+      <webElementGuid>b5683d35-9557-4ede-a6d4-c5545e7ee222</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -2774,7 +2779,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>login-button</value>
-      <webElementGuid>15b16066-18ae-4ba0-944e-dd5eb40f0f9b</webElementGuid>
+      <webElementGuid>d92f6636-2e41-4c64-8092-1da04e5c9b5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -2782,7 +2787,7 @@
       <name>id</name>
       <type>Main</type>
       <value>login-button</value>
-      <webElementGuid>d9b765e2-7ab8-4be8-b83e-9e39869ed131</webElementGuid>
+      <webElementGuid>60624488-d54c-49be-8349-144f183f21a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -2790,7 +2795,7 @@
       <name>name</name>
       <type>Main</type>
       <value>login-button</value>
-      <webElementGuid>ec974dc1-9ba8-4dc8-bfe8-99b1c7305376</webElementGuid>
+      <webElementGuid>df618b3e-d9e5-4699-a507-019ece30f590</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -2798,7 +2803,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Login</value>
-      <webElementGuid>90601cc2-b124-4847-9c48-3f6871ad9a87</webElementGuid>
+      <webElementGuid>24abee4d-b7e9-4bb9-8df8-2e38c8c895f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -2806,71 +2811,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;login-button&quot;)</value>
-      <webElementGuid>7a97668e-5ba0-49db-bdb5-1a5214e641cf</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>input</value>
-      <webElementGuid>b6bd8a06-ea97-45c3-8a93-123f2b780f5a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>74a5190c-92bc-479c-87e4-940004627ed2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>submit-button btn_action</value>
-      <webElementGuid>aa1e4548-a9a0-43a7-b523-ac85fdc74cf9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-test</name>
-      <type>Main</type>
-      <value>login-button</value>
-      <webElementGuid>036edafc-55f2-44c9-ad69-ae3295e5e744</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>login-button</value>
-      <webElementGuid>90a60851-29ca-4470-bb99-ff447b0d1481</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>login-button</value>
-      <webElementGuid>a9c7f032-e14e-47cb-b103-ab0904e3a9d8</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>657f8824-e260-4059-99ce-db85090611a4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;login-button&quot;)</value>
-      <webElementGuid>529ebe7b-b9e9-4765-adfb-3870067fc003</webElementGuid>
+      <webElementGuid>5c4b65b6-c9ac-4308-8519-fdb344f7f998</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -2878,6 +2819,9 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='login-button']</value>
+<<<<<<< HEAD
+      <webElementGuid>f1a9beb4-065d-4a17-ac66-d1c1788d1c0a</webElementGuid>
+=======
 <<<<<<< HEAD
       <webElementGuid>d119e713-dc50-4481-b464-e41f509db8f7</webElementGuid>
 =======
@@ -2891,6 +2835,7 @@
       <webElementGuid>5df0c727-9076-47b4-b084-ba28007a97ee</webElementGuid>
 >>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
 >>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -2898,6 +2843,9 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='login_button_container']/div/form/input</value>
+<<<<<<< HEAD
+      <webElementGuid>8d81d698-d2cd-42c8-803a-829804dcb1c4</webElementGuid>
+=======
 <<<<<<< HEAD
       <webElementGuid>260fdbc2-e865-49ee-9ddc-e63452bb0abc</webElementGuid>
 =======
@@ -2911,6 +2859,7 @@
       <webElementGuid>5d6f3992-12ac-4b3d-a6d4-b3e355dbd5a3</webElementGuid>
 >>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
 >>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -2918,6 +2867,9 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/input</value>
+<<<<<<< HEAD
+      <webElementGuid>8520d9d1-f4f5-4dc2-bb13-f375fa892569</webElementGuid>
+=======
 <<<<<<< HEAD
       <webElementGuid>e64d6452-8d17-4737-874b-7d74f2f81e7a</webElementGuid>
 =======
@@ -2931,6 +2883,7 @@
       <webElementGuid>d4a9fc4d-8d3f-4d94-9db3-d315b228077f</webElementGuid>
 >>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
 >>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -2939,7 +2892,11 @@
       <type>Main</type>
       <value>//input[@type = 'submit' and @id = 'login-button' and @name = 'login-button']</value>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <webElementGuid>fd4661b9-3492-443b-9bdf-2f3258336575</webElementGuid>
+=======
+      <webElementGuid>1304b1ae-e0d6-4123-93ab-54745780c6e3</webElementGuid>
+>>>>>>> branch 'master' of https://github.com/yuhanadit/SauceDemoAutomationTesting.git
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
